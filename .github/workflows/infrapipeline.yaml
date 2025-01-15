@@ -8,4 +8,5 @@ jobs:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
   
       - run: terraform --version
-    
+      - run: ipconfig
+      - run: hostname

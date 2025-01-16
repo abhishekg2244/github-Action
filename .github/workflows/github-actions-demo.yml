@@ -1,5 +1,5 @@
 name: githubaction-firstpipeline
-on: [push]
+on: [workflow_dispatch]
 run-name: test-pipline
 jobs:
   my_first_job:

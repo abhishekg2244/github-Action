@@ -1,0 +1,12 @@
+name: terraform
+
+on: [workflow_dispatch]
+
+jobs:
+  terraform_job:
+    name: terraformjob
+    runs-on: [self-hosted]
+    steps:
+      - run: echo "learning github action"
+    
+      

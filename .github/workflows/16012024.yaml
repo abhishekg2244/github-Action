@@ -2,7 +2,7 @@ name: infra
 
 run-name: ${{ github.actor }} is testing out GitHub Actions
 
-on: [workflow_run]
+on: [workflow_dispatch]
 
 jobs:  
   Explore-GitHub-Actions:
